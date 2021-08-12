@@ -27,14 +27,6 @@
   line-height: 29px;
 }
 
-.background-skew {
-  width: 320px;
-  height: 828px;
-  background-image: url("../../img/background/background-adv.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
 .advantages__background {
   margin-top: auto;
 
@@ -45,11 +37,6 @@
 
 .advantages__item-main {
   margin-bottom: 25px;
-}
-
-.title-advantages-main {
-  line-height: 24px;
-  font-weight: 700;
 }
 
 .advantages__text {
@@ -80,12 +67,6 @@
   top: 37px;
   left: 91px;
   z-index: 2;
-}
-
-.cover {
-  width: 100%;
-  height: 43px;
-  background-color: $white;
 }
 
 .advantages__cover {

@@ -1,0 +1,11 @@
+.photo-info {
+  width: 280px;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $form-background-dark;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

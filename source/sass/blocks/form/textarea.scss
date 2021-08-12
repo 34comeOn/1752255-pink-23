@@ -1,0 +1,8 @@
+.textarea {
+  @include font-family;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  border: 2px solid $form-background-dark;
+  padding: 22px;
+}

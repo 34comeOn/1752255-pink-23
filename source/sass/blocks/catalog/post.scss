@@ -2,13 +2,6 @@
   height: 930px;
 }
 
-.post-caption {
-  line-height: 30px;
-  width: 260px;
-  height: 132px;
-  padding-top: 40px;
-}
-
 .post__title {
   margin: 0 auto;
 }
@@ -17,21 +10,6 @@
   border: none;
   margin: 0;
   padding: 0;
-}
-
-.post-box {
-  background-color: $form-background-dark;
-  height: 756px;
-  margin-top: auto;
-
-  display: grid;
-  grid-template-rows: 394px 85px 75px 202px;
-}
-
-.post-caption-wrapper {
-  width: 320px;
-  height: 172px;
-  background-color: $white;
 }
 
 .post__wrapper-pic {
@@ -51,14 +29,6 @@
   margin-right: auto;
 }
 
-.post-controls {
-  width: 200px;
-  height: 57px;
-
-  display: flex;
-  justify-content: space-between;
-}
-
 .post__item {
   margin-top: auto;
   margin-bottom: auto;
@@ -70,27 +40,6 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.range-controls-wrapper {
-  width: 240px;
-  height: 73px;
-}
-
-.scale {
-  margin-top: 35px;
-
-  width: 240px;
-  height: 2px;
-  background-color: $nav-active;
-}
-
-.post-toggle {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background-color: $form-background-dark;
-  border: 2px solid $contrast-heading;
 }
 
 .post__toggle {
@@ -105,27 +54,6 @@
 
   display: flex;
   flex-direction: column;
-}
-
-.button-in,
-.button-cansel {
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 700;
-  background-color: transparent;
-  border: 3px solid $contrast-heading;
-  border-radius: 30px;
-  width: 280px;
-  height: 55px;
-}
-
-.button-in {
-  color: $contrast-heading;
-}
-
-.button-cansel {
-  border-color: $nav-active;
-  opacity: 0.3;
 }
 
 .post__button-in {

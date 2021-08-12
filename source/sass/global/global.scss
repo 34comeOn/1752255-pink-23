@@ -1,5 +1,5 @@
 body {
-  font-family: "OpenSans-Light", "Arial", sans-serif;
+  @include font-family;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -28,9 +28,7 @@ body {
 }
 
 .list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  @include list-reset;
 }
 
 a {
@@ -40,16 +38,16 @@ a {
 }
 
 .title {
-  font-family: "OpenSans", "Arial", sans-serif;
+  @include font-family;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
 
 .button {
+  @include font-family;
   font-size: 18px;
   font-weight: 700;
   background-color: transparent;
   border: none;
-  font-family: "OpenSans-Light", "Arial", sans-serif;
 }

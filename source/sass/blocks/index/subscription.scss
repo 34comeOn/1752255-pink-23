@@ -16,31 +16,6 @@
   grid-column: 1 / -1;
 }
 
-.subscription-wrapper {
-  width: 100%;
-  background-color: $white;
-}
-
-.subscription-header-current {
-  color: $white;
-  line-height: 30px;
-  text-transform: uppercase;
-  width: 100%;
-  height: 94px;
-  background-color: $nav-active;
-  position: relative;
-}
-
-.subscription-name {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.subscription-price {
-  font-size: 18px;
-  font-weight: 300;
-}
-
 .subscription__item-header {
   display: flex;
   flex-direction: column;
@@ -54,12 +29,6 @@
 
 .subscription__text {
   margin-top: 0;
-}
-
-.best-offer {
-  position: absolute;
-  top: 0;
-  left: 20px;
 }
 
 .subscription__list-main {
@@ -97,12 +66,6 @@
   margin-right: auto;
 }
 
-.subscription-option {
-  height: 59px;
-  text-transform: uppercase;
-  padding-left: 20px;
-}
-
 .subscription__image-match {
   margin-left: auto;
   margin-right: auto;
@@ -119,12 +82,4 @@
   grid-row: 1 / -1;
   grid-column: 1 / -1;
   z-index: -1;
-}
-
-.background-skew-subscription {
-  width: 320px;
-  height: 506px;
-  background-image: url("../../img/background/background-price.png");
-  background-position: top center;
-  background-repeat: no-repeat;
 }

@@ -7,22 +7,6 @@
   grid-template-rows: 85px 377px 115px 64px 102px;
 }
 
-.slogan {
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 300;
-  color: $white;
-}
-
-.download-button {
-  line-height: 18px;
-}
-
-.available-platforms {
-  color: $white;
-  padding-bottom: auto;
-}
-
 .intro__slogan {
   padding-left: 28px;
   padding-right: 28px;
@@ -62,13 +46,6 @@
 
   grid-row: 4 / 5;
   grid-column: 1 / -1;
-}
-
-.platform-icons {
-  width: 210px;
-
-  display: flex;
-  justify-content: space-between;
 }
 
 .intro__item {
