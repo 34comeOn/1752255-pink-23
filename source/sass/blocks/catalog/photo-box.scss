@@ -1,0 +1,39 @@
+.photo-box {
+  position: relative;
+}
+
+.photo-box__image {
+  margin-top: 20px;
+}
+
+.photo-box__leading-photo {
+  top: 20px;
+  right: 20px;
+}
+
+.photo-box__item-header {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.photo-box__author {
+  margin-right: 3px;
+}
+
+.photo-box__item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.photo-box__feedback {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.photo-box__likes-counter {
+  top: -10px;
+  left: 38px;
+}

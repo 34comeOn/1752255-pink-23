@@ -1,0 +1,18 @@
+.user-contacts__list {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-contacts__label {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.user-contacts__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

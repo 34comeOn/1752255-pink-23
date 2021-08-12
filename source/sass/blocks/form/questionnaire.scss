@@ -1,0 +1,36 @@
+.questionnaire {
+  border-top: 1px solid transparent;
+  background-color: $white;
+  grid-row: 2 / 4;
+  grid-column: 1 / -1;
+}
+
+.questionnaire__fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionnaire__item-name {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questionnaire__title {
+  padding-top: 44px;
+  margin-bottom: 35px;
+}
+
+
+.questionnaire__item-comment {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+.questionnaire__item-button {
+  margin-bottom: 35px;
+}
+
+.questionnaire__item-note {
+  margin-bottom: 35px;
+}

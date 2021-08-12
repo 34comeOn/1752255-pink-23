@@ -1,0 +1,23 @@
+.socials__list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 144px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials__item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.socials__button {
+  position: relative;
+}
+
+.socials__image-ellipse {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
