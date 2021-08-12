@@ -1,0 +1,142 @@
+.post {
+  height: 930px;
+}
+
+.post-caption {
+  line-height: 30px;
+  width: 260px;
+  height: 132px;
+  padding-top: 40px;
+}
+
+.post__title {
+  margin: 0 auto;
+}
+
+.post__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-box {
+  background-color: $form-background-dark;
+  height: 756px;
+  margin-top: auto;
+
+  display: grid;
+  grid-template-rows: 394px 85px 75px 202px;
+}
+
+.post-caption-wrapper {
+  width: 320px;
+  height: 172px;
+  background-color: $white;
+}
+
+.post__wrapper-pic {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+}
+
+.post__image {
+  margin-top: 20px;
+}
+
+.post__list {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-controls {
+  width: 200px;
+  height: 57px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.post__range-controls {
+  grid-row: 3 / 4;
+  grid-column: 1 / -1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.range-controls-wrapper {
+  width: 240px;
+  height: 73px;
+}
+
+.scale {
+  margin-top: 35px;
+
+  width: 240px;
+  height: 2px;
+  background-color: $nav-active;
+}
+
+.post-toggle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: $form-background-dark;
+  border: 2px solid $contrast-heading;
+}
+
+.post__toggle {
+  position: absolute;
+  top: 30px;
+  left: 80%;
+}
+
+.post__button {
+  grid-row: 4 / 5;
+  grid-column: 1 / -1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.button-in,
+.button-cansel {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 3px solid $contrast-heading;
+  border-radius: 30px;
+  width: 280px;
+  height: 55px;
+}
+
+.button-in {
+  color: $contrast-heading;
+}
+
+.button-cansel {
+  border-color: $nav-active;
+  opacity: 0.3;
+}
+
+.post__button-in {
+  margin-top: 38px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post__button-cansel {
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,109 @@
+.photo-example {
+  margin-bottom: 0;
+}
+
+.photo-box {
+  position: relative;
+}
+
+.photo-box__image {
+  margin-top: 20px;
+}
+
+.panorama-label {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 140px;
+  height: 30px;
+  background-color: $contrast-heading;
+  color: $white;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 7px;
+  position: absolute;
+}
+
+.photo-box__leading-photo {
+  top: 20px;
+  right: 20px;
+}
+
+.photo-info {
+  width: 280px;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $form-background-dark;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.photo-info-header {
+  height: 25px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo-box__item-header {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.photo-author {
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.photo-meta {
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.photo-box__author {
+  margin-right: 3px;
+}
+
+.photo-box__item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.photo-text {
+  text-align: left;
+  height: min-content;
+}
+
+.photo-feedback {
+  height: 25px;
+
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.photo-box__feedback {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.likes-counter {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $contrast-heading;
+  position: absolute;
+}
+
+.photo-box__likes-counter {
+  top: -10px;
+  left: 38px;
+}

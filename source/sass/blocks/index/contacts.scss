@@ -1,0 +1,34 @@
+.contacts-list {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-slogan {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+}
+
+.contacts__image {
+  width: 100%;
+}
+
+.contacts-inscription {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.contacts-info {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 300;
+  color: $contrast-heading;
+  margin-bottom: 30px;
+  margin-top: 0;
+}

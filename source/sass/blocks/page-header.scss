@@ -1,0 +1,28 @@
+.page-header {
+  width: 100%;
+  background-color: $black-header;
+
+  z-index: 1;
+  grid-row: 1/2;
+  grid-column: 1 / -1;
+}
+
+.header-wrapper {
+  position: relative;
+  height: 66px;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header__logo {
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.page-header__button {
+  margin-right: 20px;
+}

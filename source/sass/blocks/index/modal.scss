@@ -1,0 +1,21 @@
+.modal {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  position: absolute;
+  width: 100%;
+  height: 325px;
+  background-color: $nav-active;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__button {
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: 20px;
+}
