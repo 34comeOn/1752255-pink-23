@@ -1,4 +1,19 @@
 .header-wrapper {
-  position: relative;
+  width: 280px;
   height: 66px;
+  padding: 0 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    height: 110px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+    height: 110px;
+    padding: 0 130px;
+  }
 }

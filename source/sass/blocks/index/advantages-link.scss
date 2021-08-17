@@ -1,0 +1,9 @@
+.advantages-link {
+  color: $contrast-heading;
+  text-decoration: underline;
+
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

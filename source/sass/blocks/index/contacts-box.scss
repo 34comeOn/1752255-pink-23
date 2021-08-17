@@ -1,4 +1,17 @@
 .contacts-box {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-columns: 320px;
+  row-gap: 5px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-rows: min-content min-content;
+    grid-template-columns: 330px 330px;
+    row-gap: 5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-rows: min-content;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

@@ -1,0 +1,16 @@
+.more-advantages {
+  @media (min-width: $tablet-width) {
+    width: 660px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    height: 430px;
+    background-color: $form-background-dark;
+
+    justify-content: center;
+  }
+}

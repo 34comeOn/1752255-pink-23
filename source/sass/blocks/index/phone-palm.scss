@@ -1,0 +1,30 @@
+.phone-palm {
+  width: 320px;
+  height: 286px;
+  background-image: url("../../../img/hand-phone/hand-mobile.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .phone-palm {
+    width: 660px;
+    height: 545px;
+    background-image: url("../../../img/hand-phone/hand-tablet.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .phone-palm {
+    width: 1050px;
+    height: 645px;
+    background-image: url("../../../img/hand-phone/hand-desktop.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+}
