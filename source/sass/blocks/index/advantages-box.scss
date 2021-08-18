@@ -1,0 +1,151 @@
+.advantages-box {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-rows: 230px 494px 277px 43px;
+  grid-template-columns: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 660px;
+
+    grid-template-rows: 216px 510px 390px;
+    grid-template-columns: 310px 310px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+
+    grid-template-rows: 315px 360px 258px 430px;
+    grid-template-columns: 1200px;
+  }
+}
+
+.advantages-box__list-intro {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+}
+
+.advantages-box__item-intro {
+  margin-top: 37px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+}
+
+.advantages-box__list-main {
+  margin-top: 47px;
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+
+  @media (min-width: $tablet-width) {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 5px;
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+  }
+}
+
+.advantages-box-intro {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.advantages-box__background {
+  margin-top: auto;
+
+  grid-row: 1 / 4;
+  grid-column: 1 / -1;
+  z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+  }
+}
+
+.advantages-box__item-main {
+  margin-bottom: 25px;
+}
+
+.advantages-box__text {
+  width: 266px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.advantages-box__list-images {
+  grid-row: 3 / 4;
+  grid-column: 1 / -1;
+  z-index: 0;
+
+  @media (min-width: $tablet-width) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+  }
+}
+
+.advantages-box__item-images {
+  position: relative;
+}
+
+.advantages-box__image-phone {
+  position: absolute;
+  top: -1px;
+  left: 80px;
+  z-index: 1;
+}
+
+.advantages-box__image-emoji {
+  position: absolute;
+  top: 37px;
+  left: 91px;
+  z-index: 2;
+}
+
+.advantages-box__cover {
+  grid-row: 4 / 5;
+  grid-column: 1 / -1;
+  z-index: 3;
+}
+
+.advantages-box__cover--hide {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.advantages-box__element {
+  @media (min-width: $desktop-width) {
+    grid-row: 4 / 5;
+    grid-column: 1 / -1;
+  }
+}
+
+.advantages-box__element--hide {
+  display: none;
+}

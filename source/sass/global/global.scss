@@ -7,11 +7,19 @@ body {
   margin: 0;
   padding: 0;
   background-color: $white;
-  max-width: 320px;
+  min-width: 320px;
 
   min-height: 100%;
   display: grid;
   grid-template-rows: 66px 1fr 284px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-rows: 110px 1fr 127px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-rows: 110px 1fr 197px;
+  }
 }
 
 .visually-hidden {

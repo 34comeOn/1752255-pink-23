@@ -1,4 +1,13 @@
 .available-platforms {
   color: $white;
+  width: 280px;
   padding-bottom: auto;
+  z-index: 1;
+}
+
+@media (min-width: $tablet-width) {
+  .available-platforms {
+    width: 300px;
+    font-size: 18px;
+  }
 }

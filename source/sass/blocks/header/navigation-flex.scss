@@ -1,0 +1,15 @@
+@media (min-width: $desktop-width) {
+  .navigation-flex {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: none;
+    width: 620px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

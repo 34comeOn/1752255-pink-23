@@ -1,10 +1,14 @@
 .page-header {
-  width: 100%;
+  min-width: 320px;
   background-color: $black-header;
 
-  z-index: 1;
   grid-row: 1/2;
   grid-column: 1 / -1;
+  z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    height: 110px;
+  }
 }
 
 .page-header__wrapper {
@@ -14,10 +18,11 @@
 }
 
 .page-header__logo {
-  margin-left: 20px;
   z-index: 1;
 }
 
-.page-header__button {
-  margin-right: 20px;
+@media (min-width: $desktop-width) {
+  .page-header__button {
+    display: none;
+  }
 }

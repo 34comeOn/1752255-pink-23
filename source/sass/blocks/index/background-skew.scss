@@ -4,4 +4,23 @@
   background-image: url("../../img/background/background-adv.png");
   background-position: top center;
   background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 1200px;
+    height: 510px;
+    background-image: url("../../../img/background/skew-adv-tablet.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -270px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    height: 715px;
+    background-image: url("../../../img/background/skew-advant-desktop.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: static;
+  }
 }

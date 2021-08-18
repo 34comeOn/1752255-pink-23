@@ -1,5 +1,14 @@
 .author-name {
+  font-family: "OpenSans-Bold", "Arial", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+  }
 }

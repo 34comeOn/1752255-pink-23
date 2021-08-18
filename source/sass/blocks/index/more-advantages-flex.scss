@@ -1,0 +1,8 @@
+.more-advantages-flex {
+  width: 310px;
+  text-align: left;
+
+  @media (min-width: $desktop-width) {
+    width: 534px;
+  }
+}

@@ -1,0 +1,13 @@
+.clock-pic {
+  width: 238px;
+  height: 276px;
+  background-image: url("../../../img/clock/clock-tablet.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  @media (min-width: $desktop-width) {
+    width: 298px;
+    height: 345px;
+    background-image: url("../../../img/clock/clock-desktop.png");
+  }
+}
