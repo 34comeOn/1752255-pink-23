@@ -1,0 +1,28 @@
+.sample {
+  width: 100%;
+  background-color: $white;
+}
+
+.sample-wrapper {
+  margin-top: -223px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -290px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -335px;
+  }
+}
+
+.sample__title {
+  margin-top: 54px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sample__list {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,7 @@
+.form-border {
+  @media (min-width: $tablet-width) {
+    border: 2px solid $form-border;
+    border-radius: 3px;
+    z-index: 0;
+  }
+}

@@ -3,3 +3,11 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.note__additional--show {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: inline;
+  }
+}

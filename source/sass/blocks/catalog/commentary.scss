@@ -1,0 +1,8 @@
+.commentary {
+  text-align: left;
+  height: min-content;
+
+  @media (min-width: $tablet-width) {
+    min-height: 85px;
+  }
+}

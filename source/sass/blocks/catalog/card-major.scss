@@ -1,0 +1,28 @@
+.card-major {
+  height: min-content;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+  }
+}
+
+.card-major__marker {
+  top: 0;
+  right: 20px;
+
+  @media (min-width: $tablet-width) {
+    top: 75px;
+    right: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 75px;
+    right: 45px;
+  }
+}

@@ -1,0 +1,31 @@
+.shell {
+  width: 320px;
+  height: 760px;
+
+  @media (min-width: $tablet-width) {
+    width: 660px;
+    height: 511px;
+    background-color: $form-background-dark;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+  }
+}
+
+.shell__form {
+  display: inline-block;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 57px;
+  }
+}
+
+.shell__fieldset {
+  border: none;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin: auto;
+  }
+}

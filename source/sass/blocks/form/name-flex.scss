@@ -1,0 +1,48 @@
+.name-flex {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
+}
+
+.name-flex__label {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+  }
+}
+
+.name-flex__input {
+  margin-bottom: 20px;
+  padding-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

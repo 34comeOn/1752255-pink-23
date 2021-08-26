@@ -1,0 +1,15 @@
+.console {
+  width: 264px;
+  height: 44px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.console__item {
+  align-self: center;
+}

@@ -1,0 +1,9 @@
+.own {
+  width: 280px;
+  height: 374px;
+
+  @media (min-width: $tablet-width) {
+    width: 300px;
+    height: 400px;
+  }
+}

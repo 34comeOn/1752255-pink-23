@@ -1,0 +1,11 @@
+.upper {
+  height: min-content;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.upper__author {
+  margin-right: 3px;
+}

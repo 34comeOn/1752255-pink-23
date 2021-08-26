@@ -1,0 +1,11 @@
+.user-name {
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 430px;
+  }
+}

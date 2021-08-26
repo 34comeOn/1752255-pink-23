@@ -1,7 +1,21 @@
 .app {
   background-color: $form-background-dark;
+  width: 320px;
   height: 340px;
   border-top: 1px solid transparent;
+
+  @media (min-width: $tablet-width) {
+    background-color: $white;
+    width: 620px;
+    height: 300px;
+    border: 2px solid $form-border;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 431px;
+    height: 300px;
+    border: 2px solid $form-border;
+  }
 }
 
 .app__title {
@@ -9,6 +23,14 @@
   margin-right: auto;
   margin-top: 42px;
   margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -15px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -15px;
+  }
 }
 
 .app__list {

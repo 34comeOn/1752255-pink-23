@@ -1,70 +1,12 @@
 .post {
-  height: 930px;
+  width: 100%;
+  background-color: $form-background-dark;
+
+  @media (min-width: $tablet-width) {
+    background-color: $white;
+  }
 }
 
-.post__title {
+.post__wrapper {
   margin: 0 auto;
-}
-
-.post__fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-.post__wrapper-pic {
-  grid-row: 1 / 2;
-  grid-column: 1 / -1;
-}
-
-.post__image {
-  margin-top: 20px;
-}
-
-.post__list {
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post__item {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.post__range-controls {
-  grid-row: 3 / 4;
-  grid-column: 1 / -1;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post__toggle {
-  position: absolute;
-  top: 30px;
-  left: 80%;
-}
-
-.post__button {
-  grid-row: 4 / 5;
-  grid-column: 1 / -1;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.post__button-in {
-  margin-top: 38px;
-  margin-bottom: 12px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post__button-cansel {
-  margin-bottom: 41px;
-  margin-left: auto;
-  margin-right: auto;
 }

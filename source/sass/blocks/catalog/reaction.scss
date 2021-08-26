@@ -1,0 +1,21 @@
+.reaction {
+  height: 25px;
+
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row-reverse;
+  }
+}
+
+.reaction__counter {
+  top: -10px;
+  left: 38px;
+
+  @media (min-width: $tablet-width) {
+    top: -10px;
+    left: 15px;
+  }
+}

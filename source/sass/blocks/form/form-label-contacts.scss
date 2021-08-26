@@ -1,0 +1,14 @@
+.form-label-contacts {
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $contrast-heading;
+
+  @media (min-width: $tablet-width) {
+    width: 496px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 371px;
+  }
+}

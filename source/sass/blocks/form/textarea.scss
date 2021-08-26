@@ -5,4 +5,15 @@
   font-weight: 400;
   border: 2px solid $form-background-dark;
   padding: 22px;
+
+  @media (min-width: $tablet-width) {
+    width: 440px;
+    height: 169px;
+    margin-top: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 746px;
+    height: 104px;
+  }
 }

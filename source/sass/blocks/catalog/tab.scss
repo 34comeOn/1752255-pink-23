@@ -1,0 +1,23 @@
+.tab {
+  width: 280px;
+  height: 124px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+
+  @media (min-width: $tablet-width) {
+    width: 260px;
+    height: 135px;
+    margin-top: 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 410px;
+    height: 55px;
+    margin-top: 180px;
+
+    flex-direction: row;
+  }
+}

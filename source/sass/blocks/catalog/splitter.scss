@@ -1,0 +1,10 @@
+.splitter {
+  width: 320px;
+  height: 1px;
+  background-color: $light;
+  position: absolute;
+
+  @media (min-width: $tablet-width) {
+    width: 275px;
+  }
+}

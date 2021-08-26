@@ -1,7 +1,7 @@
 .background-skew-subscription {
   width: 320px;
   height: 506px;
-  background-image: url("../../../img/background/skew-subscription-mobile.png");
+  background-image: url("../img/background/skew-subscription-mobile.png");
   background-position: top center;
   background-repeat: no-repeat;
   z-index: -1;
@@ -9,12 +9,12 @@
   @media (min-width: $tablet-width) {
     width: 660px;
     height: 534px;
-    background-image: url("../../../img/background/skew-subscription-tablet.png");
+    background-image: url("../img/background/skew-subscription-tablet.png");
   }
 
   @media (min-width: $desktop-width) {
     width: 1200px;
     height: 534px;
-    background-image: url("../../../img/background/skew-subscription-desk.png");
+    background-image: url("../img/background/skew-subscription-desk.png");
   }
 }
