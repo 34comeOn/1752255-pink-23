@@ -1,17 +1,24 @@
 .questionnaire {
+  width: 100%;
   border-top: 1px solid transparent;
   background-color: $white;
-  grid-row: 2 / 4;
-  grid-column: 1 / -1;
+  margin-top: -225px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -289px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -459px;
+  }
+}
+
+.questionnaire__form {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .questionnaire__fieldset {
-  display: flex;
-  flex-direction: column;
-}
-
-.questionnaire__item-name {
-  width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,18 +26,14 @@
 .questionnaire__title {
   padding-top: 44px;
   margin-bottom: 35px;
-}
 
+  @media (min-width: $tablet-width) {
+    padding-top: 100px;
+    margin-bottom: 80px;
+  }
 
-.questionnaire__item-comment {
-  margin-top: 35px;
-  margin-bottom: 45px;
-}
-
-.questionnaire__item-button {
-  margin-bottom: 35px;
-}
-
-.questionnaire__item-note {
-  margin-bottom: 35px;
+  @media (min-width: $desktop-width) {
+    padding-top: 100px;
+    margin-bottom: 70px;
+  }
 }

@@ -1,0 +1,16 @@
+.contacts-title {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    text-transform: uppercase;
+    color: $contrast-heading;
+    line-height: 30px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $white;
+    z-index: 2;
+  }
+}

@@ -1,7 +1,30 @@
+.user-contacts {
+  @media (min-width: $tablet-width) {
+    background-color: $white;
+    width: 620px;
+    height: 306px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+    height: 158px;
+  }
+}
+
+.user-contacts__title {
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .user-contacts__list {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
 }
 
 .user-contacts__label {
@@ -15,4 +38,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: column-reverse;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 371px;
+  }
 }

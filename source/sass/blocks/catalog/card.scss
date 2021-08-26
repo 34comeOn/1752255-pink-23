@@ -1,0 +1,13 @@
+.card {
+  height: min-content;
+
+  @media (min-width: $tablet-width) {
+    min-height: 455px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 300px;
+    min-height: 555px;
+    margin: 0;
+  }
+}

@@ -3,4 +3,13 @@
   line-height: 30px;
   font-weight: 400;
   display: block;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    width: 490px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 756px;
+  }
 }

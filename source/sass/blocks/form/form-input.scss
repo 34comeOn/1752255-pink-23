@@ -4,5 +4,14 @@
   font-weight: 400;
   border: 2px solid $form-border;
   border-radius: 3px;
+  width: 260px;
   height: 59px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+  }
 }

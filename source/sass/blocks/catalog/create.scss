@@ -1,0 +1,44 @@
+.create {
+  background-color: $form-background-dark;
+  width: 320px;
+  height: 760px;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    height: 400px;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 800px;
+  }
+}
+
+.create__unit-own {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 90px;
+  }
+}
+
+.create__unit-customize {
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+}

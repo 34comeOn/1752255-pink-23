@@ -1,0 +1,18 @@
+.intro-text {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 300;
+  width: 228px;
+  color: $white;
+  display: inline-block;
+
+  @media (min-width: $tablet-width) {
+    font-size: 50px;
+    line-height: 68px;
+    width: 480px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 747px;
+  }
+}

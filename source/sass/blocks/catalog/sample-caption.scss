@@ -1,0 +1,14 @@
+.sample-caption {
+  font-size: 14px;
+  line-height: 30px;
+  width: 260px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    width: 440px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 572px;
+  }
+}

@@ -3,4 +3,13 @@
   text-transform: uppercase;
   color: $contrast-heading;
   width: 178px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 30px;
+    width: 318px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $white;
+    z-index: 2;
+  }
 }

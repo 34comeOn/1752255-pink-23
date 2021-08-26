@@ -1,4 +1,19 @@
+.comment {
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    height: 290px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+    height: 230px;
+  }
+}
+
 .comment__label {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
   margin-bottom: 15px;
 }

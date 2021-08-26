@@ -1,0 +1,27 @@
+.tuner {
+  width: 240px;
+  height: 73px;
+}
+
+.tuner--hide {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.tuner__toggle {
+  position: absolute;
+  top: 30px;
+  left: 80%;
+}
+
+.tuner__splitter {
+  top: 70px;
+  left: -40px;
+
+  @media (min-width: $tablet-width) {
+    left: -20px;
+  }
+}

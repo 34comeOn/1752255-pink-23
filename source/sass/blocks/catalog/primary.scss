@@ -1,0 +1,10 @@
+.primary {
+  background-color: $nav-active;
+  width: 100%;
+  height: 462px;
+  z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    height: 729px;
+  }
+}
