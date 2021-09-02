@@ -1,0 +1,56 @@
+.cell {
+  color: $white;
+  line-height: 30px;
+  text-transform: uppercase;
+  width: 276px;
+  height: 98px;
+  background-color: $nav-active;
+  border-left: 2px solid $form-background-dark;
+  border-right: 2px solid $form-background-dark;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    width: 152px;
+    height: 75px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 233px;
+    height: 94px;
+  }
+}
+
+.cell__current {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell__title {
+  margin-bottom: 0;
+}
+
+.cell__text {
+  margin-top: 0;
+}
+
+.cell__image {
+  top: 0;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    top: -2px;
+    left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: -2px;
+    left: 0;
+  }
+}

@@ -1,0 +1,60 @@
+.tariff {
+  width: 320px;
+  height: 506px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  display: grid;
+  grid-template-rows: 224px 182px 100px;
+
+  @media (min-width: $tablet-width) {
+    width: 660px;
+    height: 405px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    height: 534px;
+  }
+}
+
+.tariff__choice {
+  margin-top: auto;
+  margin-bottom: 0;
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+
+  @media (min-width: $tablet-width) {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 128px;
+  }
+}
+
+.tariff__main {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+}
+
+.tariff__toggles {
+  margin-top: 22px;
+  margin-bottom: auto;
+  grid-row: 3 / 4;
+  grid-column: 1 / -1;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.tariff__subject {
+  margin-left: 2px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+  }
+}

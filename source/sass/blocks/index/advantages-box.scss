@@ -2,6 +2,7 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 
   display: grid;
   grid-template-rows: 230px 494px 277px 43px;
@@ -11,7 +12,7 @@
     width: 660px;
 
     grid-template-rows: 216px 510px 390px;
-    grid-template-columns: 310px 310px;
+    grid-template-columns: 50% 50%;
   }
 
   @media (min-width: $desktop-width) {
@@ -27,8 +28,16 @@
   grid-column: 1 / -1;
 }
 
-.advantages-box__item-intro {
-  margin-top: 37px;
+.advantages-box__item-question {
+  margin-top: 40px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+}
+
+.advantages-box__item-answer {
+  margin-top: 29px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -36,7 +45,7 @@
 }
 
 .advantages-box__list-main {
-  margin-top: 47px;
+  margin-top: 50px;
   grid-row: 2 / 3;
   grid-column: 1 / -1;
 
@@ -49,6 +58,19 @@
     margin-top: 5px;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
+  }
+}
+
+.advantages-box__item-mood {
+  @media (min-width: $desktop-width) {
+    margin-left: 10px;
+    margin-right: 88px;
+  }
+}
+
+.advantages-box__item-world {
+  @media (min-width: $desktop-width) {
+    margin-right: 86px;
   }
 }
 
@@ -79,14 +101,24 @@
   }
 }
 
-.advantages-box__item-main {
-  margin-bottom: 25px;
-}
-
 .advantages-box__text {
   width: 266px;
   padding-left: 27px;
   padding-right: 27px;
+  margin-top: 12px;
+  margin-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+}
+
+.advantages-box-main {
+  margin-bottom: 25px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+  }
 }
 
 .advantages-box__list-images {
@@ -105,33 +137,14 @@
   }
 }
 
-.advantages-box__item-images {
-  position: relative;
-}
-
-.advantages-box__image-phone {
-  position: absolute;
-  top: -1px;
-  left: 80px;
-  z-index: 1;
-}
-
-.advantages-box__image-emoji {
-  position: absolute;
-  top: 37px;
-  left: 91px;
-  z-index: 2;
-}
-
 .advantages-box__cover {
   grid-row: 4 / 5;
   grid-column: 1 / -1;
   z-index: 3;
-}
 
-.advantages-box__cover--hide {
   @media (min-width: $tablet-width) {
-    display: none;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
   }
 
   @media (min-width: $desktop-width) {
@@ -148,4 +161,15 @@
 
 .advantages-box__element--hide {
   display: none;
+}
+
+.advantages-box__title {
+  margin-bottom: 11px;
+
+  @media (min-width: $desktop-width) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
 }

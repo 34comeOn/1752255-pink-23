@@ -4,4 +4,10 @@
   line-height: 36px;
   font-weight: 700;
   width: 168px;
+  height: 40px;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    height: 1px;
+  }
 }

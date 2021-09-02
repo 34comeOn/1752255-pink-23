@@ -1,0 +1,19 @@
+.subject-wrapper {
+  width: 320px;
+  height: 181px;
+  background-color: $form-border;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $tablet-width) {
+    width: 616px;
+    height: 139px;
+    margin-top: -31px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+    height: 181px;
+    margin-top: 31px;
+  }
+}

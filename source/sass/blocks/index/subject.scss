@@ -1,0 +1,64 @@
+.subject {
+  width: 320px;
+  height: 183px;
+  margin-top: -2px;
+
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: 20px 207px 69px 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 614px;
+    height: 139px;
+    border: 2px solid $form-border;
+    border-radius: 2px;
+
+    grid-template-columns: 152px 152px 152px 152px;
+    column-gap: 2px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 938px;
+    height: 181px;
+
+    grid-template-columns: 233px 233px 233px 233px;
+  }
+}
+
+.subject__empty-left {
+  grid-row: 1 / -1;
+  grid-column: 1 / 2;
+  margin-left: -2px;
+
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  row-gap: 2px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.subject__empty-right {
+  grid-row: 1 / -1;
+  grid-column: 4 / 5;
+  margin-left: 2px;
+
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  row-gap: 2px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.subject__empty {
+  background-color: $white;
+  width: 20px;
+  height: 59px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

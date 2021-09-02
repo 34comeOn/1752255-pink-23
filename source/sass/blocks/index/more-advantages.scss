@@ -1,6 +1,8 @@
 .more-advantages {
   @media (min-width: $tablet-width) {
     width: 660px;
+    background-color: $white;
+    z-index: 0;
 
     display: flex;
     justify-content: space-between;
@@ -12,5 +14,22 @@
     background-color: $form-background-dark;
 
     justify-content: center;
+  }
+}
+
+.more-advantages__image {
+  padding-left: 20px;
+  margin-top: 54px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+    margin-top: 17px;
+    margin-right: 71px;
+  }
+}
+
+.more-advantages__item br {
+  @media (min-width: $desktop-width) {
+    display: none;
   }
 }

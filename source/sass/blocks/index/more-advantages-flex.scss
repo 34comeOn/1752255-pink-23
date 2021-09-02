@@ -1,8 +1,16 @@
 .more-advantages-flex {
   width: 310px;
+  height: min-content;
   text-align: left;
+  padding-right: 20px;
+  margin-top: 65px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
   @media (min-width: $desktop-width) {
-    width: 534px;
+    width: 570px;
+    padding-right: 0;
   }
 }

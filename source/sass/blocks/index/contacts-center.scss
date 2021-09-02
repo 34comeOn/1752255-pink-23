@@ -2,13 +2,16 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     width: 660px;
+    margin-top: -46px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1200px;
+    margin-top: -41px;
   }
 }
 
@@ -20,16 +23,21 @@
 .contacts-center__list {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 22px;
 }
 
 .contacts-center__item-mail {
+  margin-bottom: 1px;
+
   @media (min-width: $desktop-width) {
     grid-column: 3 / 4;
   }
 }
 
 .contacts-center__item-address {
+  z-index: 2;
+  margin-top: -7px;
+
   @media (min-width: $tablet-width) {
     grid-row: 2 / 3;
     grid-column: 1 / -1;
@@ -39,4 +47,13 @@
     grid-row: 1 / -1;
     grid-column: 2 / 3;
   }
+}
+
+.contacts-center__item-map {
+  margin-top: 24px;
+}
+
+.contacts-center__map {
+  display: block;
+  z-index: -2;
 }
