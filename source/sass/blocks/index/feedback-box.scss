@@ -2,6 +2,8 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  margin-bottom: -4px;
 
   @media (min-width: $tablet-width) {
     width: 660px;
@@ -57,4 +59,60 @@
 .feedback-box__text {
   margin-left: auto;
   margin-right: auto;
+}
+
+.feedback-box__button-left {
+  @media (min-width: $desktop-width) {
+    width: 22px;
+    height: 41px;
+    cursor: pointer;
+  }
+}
+
+.feedback-box__button-right {
+  @media (min-width: $desktop-width) {
+    width: 22px;
+    height: 41px;
+    cursor: pointer;
+  }
+}
+
+.feedback-box__arrow-left {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    width: 22px;
+    height: 41px;
+    background-image: url("../img/left-arrow.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 141px;
+    left: 122px;
+  }
+}
+
+.feedback-box__arrow-right {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    width: 22px;
+    height: 41px;
+    background-image: url("../img/right-arrow.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 141px;
+    left: 1043px;
+  }
+}
+
+.feedback-box__list {
+  margin-bottom: 3px;
+}
+
+.feedback-box__toggles {
+  margin-bottom: -7px;
 }

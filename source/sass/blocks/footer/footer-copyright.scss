@@ -3,4 +3,8 @@
 
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    width: 152px;
+  }
 }

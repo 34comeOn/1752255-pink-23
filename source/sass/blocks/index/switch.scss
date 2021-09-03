@@ -1,0 +1,39 @@
+.switch {
+  width: 75px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: flex-start;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.switch li {
+  width: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.switch__button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.switch__bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: $black-header;
+  margin: auto;
+}
+
+.switch__bullet--current {
+  border: 3px solid $nav-active;
+  background-color: $white;
+}

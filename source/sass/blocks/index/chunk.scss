@@ -1,0 +1,13 @@
+.chunk {
+  background-color: $white;
+  height: 59px;
+
+  @media (min-width: $tablet-width) {
+    height: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 233px;
+    height: 59px;
+  }
+}

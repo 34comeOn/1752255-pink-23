@@ -1,10 +1,14 @@
 .socials__list {
   margin-left: auto;
   margin-right: auto;
-  width: 144px;
+  width: 149px;
 
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    width: 141px;
+  }
 }
 
 .socials__item {
@@ -13,11 +17,14 @@
 }
 
 .socials__button {
+  display: block;
   position: relative;
+  width: 22px;
+  height: 22px;
 }
 
 .socials__image-ellipse {
   position: absolute;
-  top: -20px;
-  left: -20px;
+  top: -17px;
+  left: -17px;
 }

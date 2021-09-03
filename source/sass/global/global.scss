@@ -11,14 +11,14 @@ body {
 
   min-height: 100%;
   display: grid;
-  grid-template-rows: 66px 1fr 284px;
+  grid-template-rows: 66px min-content 284px;
 
   @media (min-width: $tablet-width) {
-    grid-template-rows: 110px 1fr 127px;
+    grid-template-rows: 110px min-content 127px;
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-rows: 110px 1fr 197px;
+    grid-template-rows: 110px min-content 197px;
   }
 }
 
