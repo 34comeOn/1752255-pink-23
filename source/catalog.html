@@ -16,40 +16,39 @@
 
       <div class="header-wrapper page-header__wrapper">
         <div class="page-header__logo">
-          <a class="page-header__link" href="index.html">
-            <img class="page-header__image" src="img/logotype/pink-logo.svg" width="74" height="23" alt="Логотип Пинк">
+          <a class="page-header__link" href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/logotype/logo-desk-nav.svg">
+              <source media="(min-width: 660px)" srcset="img/logotype/logo-tab-nav.svg">
+              <img class="page-header__image" src="img/logotype/pink-logo.svg" width="74" height="23" alt="Логотип Пинк">
+            </picture>
           </a>
         </div>
-        <button class="button page-header__button page-header__toggle" type="button">
-          <img class="page-header__image-open" src="img/buttons/open-btn.png" width="50" height="24" alt="кнопка открыть меню навигации">
-          <span class="visually-hidden">
-            Открыть меню навигации
-          </span>
-        </button>
-        <nav class="visually-hidden modal page-header__nav page-header__nav--burger">
-          <button class="button modal__button modal__button--hide modal__toggle" type="button">
-            <img class="modal__image-close" src="img/buttons/close-btn.png" width="23" height="23" alt="кнопка закрыть меню навигации">
+        <nav class="navigation page-header__block navigation--closed navigation--nojs">
+          <button class="button navigation__toggle" type="button">
             <span class="visually-hidden">
-              Закрыть меню навигации
+              Открыть меню
             </span>
           </button>
-          <ul class="list navigation-flex modal__list">
-            <li class="modal__item">
+          <ul class="list navigation__list">
+            <li class="navigation__item">
+            </li>
+            <li class="navigation__item">
               <a href="index.html">
                 Главная
               </a>
             </li>
-            <li class="modal__item modal__item--current">
+            <li class="navigation__item navigation__item--current">
               <a href="#">
                 Фотографии
               </a>
             </li>
-            <li class="modal__item">
+            <li class="navigation__item">
               <a href="form.html">
                 Конкурс
               </a>
             </li>
-            <li class="modal__item">
+            <li class="navigation__item">
               <a href="https://up.htmlacademy.ru/profession/frontender/11/adaptive">
                 HTML Academy
               </a>
@@ -59,6 +58,23 @@
       </div>
 
     </header>
+
+    <script>
+      var navMain = document.querySelector('.navigation');
+      var navToggle = document.querySelector('.navigation__toggle');
+
+      navMain.classList.remove('navigation--nojs');
+
+      navToggle.addEventListener('click', function() {
+        if (navMain.classList.contains('navigation--closed')) {
+          navMain.classList.remove('navigation--closed');
+          navMain.classList.add('navigation--opened');
+        } else {
+          navMain.classList.add('navigation--closed');
+          navMain.classList.remove('navigation--opened');
+        }
+      });
+    </script>
 
 
     <main class="catalog">
@@ -79,7 +95,7 @@
 
         <div class="sample-wrap sample-wrapper">
           <h2 class="sample-caption sample__title">
-            Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
+            Взгляните на фотографии, которые выкладывают пользователи!<br>Видите, как не хватает ваших?
           </h2>
           <ul class="list sample-grid sample__list">
             <li class="sample-grid__main card-major">
@@ -101,7 +117,7 @@
                   </p>
                 </li>
                 <li class="commentary-major description-major__text">
-                  Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+                  Прыгать или нет? Напишите в комментарии свой совет и<br>смотрите прямую трансляцию в перископе, задавайте свои вопросы!
                 </li>
                 <li class="reaction-major description-major__feedback">
                   <form class="reaction-major__form" method="get" action="https://echo.htmlacademy.ru">
@@ -350,21 +366,27 @@
                   </div>
                   <div class="splitter tuner__splitter">
                   </div>
-                </div>
-                <div class="tuner tuner--hide customize__unit-tuner">
-                  <div class="scale tuner__scale">
-                  </div>
-                  <div class="post-toggle tuner__toggle" tabindex="0">
-                  </div>
-                  <div class="splitter tuner__splitter">
+                  <div class="tuner__icon-crop">
                   </div>
                 </div>
                 <div class="tuner tuner--hide customize__unit-tuner">
                   <div class="scale tuner__scale">
                   </div>
-                  <div class="post-toggle tuner__toggle" tabindex="0">
+                  <div class="post-toggle tuner__toggle-fill" tabindex="0">
                   </div>
-                  <div class="splitter tuner__splitter">
+                  <div class="splitter tuner__splitter-fill">
+                  </div>
+                  <div class="tuner__icon-fill">
+                  </div>
+                </div>
+                <div class="tuner tuner--hide customize__unit-tuner">
+                  <div class="scale tuner__scale">
+                  </div>
+                  <div class="post-toggle tuner__toggle-contrast" tabindex="0">
+                  </div>
+                  <div class="splitter tuner__splitter-contrast">
+                  </div>
+                  <div class="tuner__icon-contrast">
                   </div>
                 </div>
                 <div class="tab customize__unit-button">

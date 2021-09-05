@@ -10,15 +10,15 @@
   z-index: 1;
 
   @media (min-width: $tablet-width) {
-    top: 293px;
-    left: -270px;
+    top: 351px;
+    left: -264px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1439px;
     height: 123px;
     background-image: url("../img/triangle-desktop.png");
-    top: 264px;
+    top: 329px;
     left: -119px;
   }
 }

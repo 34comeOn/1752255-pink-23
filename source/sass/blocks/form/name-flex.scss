@@ -1,13 +1,18 @@
 .name-flex {
+  height: 115px;
+  letter-spacing: 1px;
+
   display: flex;
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
+    height: 77px;
+
     flex-direction: row;
   }
 
   @media (min-width: $desktop-width) {
-    flex-direction: row;
+    height: 60px;
   }
 }
 
@@ -26,15 +31,17 @@
 
   @media (min-width: $desktop-width) {
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 18px;
     margin-bottom: auto;
     padding-left: 0;
+    padding-right: 16px;
   }
 }
 
 .name-flex__input {
   margin-bottom: 20px;
   padding-left: 20px;
+  letter-spacing: 0.5px;
 
   @media (min-width: $tablet-width) {
     margin-top: auto;

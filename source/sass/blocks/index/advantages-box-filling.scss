@@ -1,13 +1,14 @@
 .advantages-box-filling {
   @media (min-width: $tablet-width) {
-    width: 300px;
+    width: 312px;
     height: 80px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 18px;
     line-height: 30px;
-    width: 235px;
+    width: 241px;
+    letter-spacing: 0.4px;
   }
 }
 

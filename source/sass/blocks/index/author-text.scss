@@ -8,10 +8,13 @@
   @media (min-width: $tablet-width) {
     font-size: 18px;
     width: 620px;
+    margin-top: 59px;
+    margin-bottom: 38px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 18px;
     width: 689px;
+    margin-top: 13px;
   }
 }

@@ -12,4 +12,9 @@
     background-color: $white;
     z-index: 2;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
 }

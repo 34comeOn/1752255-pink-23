@@ -1,0 +1,25 @@
+.checkbox:not(:checked) + label::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: -4px;
+  width: 43px;
+  height: 43px;
+  background-image: url("../img/checkbox/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+.checkbox:checked + label::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: -4px;
+  width: 43px;
+  height: 43px;
+  background-image: url("../img/checkbox/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}

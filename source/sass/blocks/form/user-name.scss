@@ -3,9 +3,11 @@
 
   @media (min-width: $tablet-width) {
     width: 620px;
+    margin-top: 19px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 430px;
+    width: 433px;
+    margin-top: 15px;
   }
 }

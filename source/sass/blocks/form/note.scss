@@ -2,6 +2,10 @@
   line-height: 30px;
   font-weight: 400;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    letter-spacing: 0.3px;
+  }
 }
 
 .note__additional--show {

@@ -11,12 +11,14 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 410px;
+    width: 400px;
   }
 }
 
 .customize__unit-console {
-  margin: 42px auto 0 auto;
+  margin-top: 44px;
+  margin-left: 26px;
+  margin-right: auto;
 }
 
 .customize__unit-tuner {
@@ -28,4 +30,8 @@
 .customize__unit-button {
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 2px;
+  }
 }

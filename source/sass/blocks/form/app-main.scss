@@ -1,6 +1,11 @@
 .app-main {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 260px;
+  justify-content: flex-start;
+  height: 225px;
+
+  @media (min-width: $desktop-width) {
+    margin-top: 44px;
+  }
 }

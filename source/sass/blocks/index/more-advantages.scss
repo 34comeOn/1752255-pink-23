@@ -19,7 +19,7 @@
 
 .more-advantages__image {
   padding-left: 20px;
-  margin-top: 54px;
+  margin-top: 53px;
 
   @media (min-width: $desktop-width) {
     padding-left: 0;
@@ -28,7 +28,23 @@
   }
 }
 
-.more-advantages__item br {
+.more-advantages__br-transfer {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: inline-block;
+  }
+}
+
+.more-advantages__br-shift {
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.more-advantages-heading br {
   @media (min-width: $desktop-width) {
     display: none;
   }

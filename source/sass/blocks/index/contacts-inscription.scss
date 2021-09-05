@@ -3,4 +3,9 @@
   line-height: 25px;
   font-weight: 700;
   margin-bottom: -1px;
+  letter-spacing: 1.4px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 18px;
+  }
 }

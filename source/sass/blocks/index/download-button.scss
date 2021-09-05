@@ -1,12 +1,17 @@
 .download-button {
   line-height: 48px;
-  width: 276px;
+  width: 274px;
   height: 49px;
   border: 3px solid $white;
   border-radius: 29px;
 
   @media (min-width: $tablet-width) {
-    width: 300px;
+    width: 294px;
     z-index: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    letter-spacing: 2px;
+    height: 50px;
   }
 }

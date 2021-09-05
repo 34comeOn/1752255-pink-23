@@ -16,10 +16,19 @@
 }
 
 .sample__title {
-  margin-top: 54px;
-  margin-bottom: 30px;
+  margin-top: 43px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 90px;
+    margin-bottom: 77px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 89px;
+  }
 }
 
 .sample__list {

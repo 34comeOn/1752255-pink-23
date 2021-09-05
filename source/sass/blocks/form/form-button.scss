@@ -6,6 +6,12 @@
   background-color: $button-background;
   border: 3px solid $button-background;
   border-radius: 3px;
-  width: 276px;
-  height: 56px;
+  width: 280px;
+  height: 63px;
+  padding-bottom: 7px;
+  padding-top: 4px;
+
+  @media (min-width: $tablet-width) {
+    width: 300px;
+  }
 }

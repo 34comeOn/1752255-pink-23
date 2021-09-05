@@ -17,12 +17,11 @@
   right: 20px;
 
   @media (min-width: $tablet-width) {
-    top: 75px;
-    right: 20px;
+    top: 57px;
+    right: 0;
   }
 
   @media (min-width: $desktop-width) {
-    top: 75px;
-    right: 45px;
+    top: 53px;
   }
 }

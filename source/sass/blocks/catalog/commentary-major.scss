@@ -1,4 +1,11 @@
 .commentary-major {
   text-align: left;
   height: min-content;
+  letter-spacing: 0.2px;
+}
+
+.commentary-major br {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }

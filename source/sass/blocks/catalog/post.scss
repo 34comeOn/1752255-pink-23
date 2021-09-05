@@ -5,6 +5,10 @@
   @media (min-width: $tablet-width) {
     background-color: $white;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 31px;
+  }
 }
 
 .post__wrapper {

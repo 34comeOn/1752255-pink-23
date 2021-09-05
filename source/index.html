@@ -17,7 +17,11 @@
       <div class="header-wrapper page-header__wrapper">
         <div class="page-header__logo">
           <a class="page-header__link" href="#">
-            <img class="page-header__image" src="img/logotype/pink-logo.svg" width="74" height="23" alt="Логотип Пинк">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/logotype/logo-desk-nav.svg">
+              <source media="(min-width: 660px)" srcset="img/logotype/logo-tab-nav.svg">
+              <img class="page-header__image" src="img/logotype/pink-logo.svg" width="74" height="23" alt="Логотип Пинк">
+            </picture>
           </a>
         </div>
         <nav class="navigation page-header__block navigation--closed navigation--nojs">
@@ -98,9 +102,9 @@
             Скачать приложение
           </a>
           <ul class="list intro-box__list platform-icons">
-            <li class="intro-box__item">
+            <li class="intro-box__item intro-box__item-apple">
               <a href="https://www.apple.com/ru/app-store/">
-                <img class="apple-icon" src="img/logotype/apple-logo.svg" width="47" height="56" alt="скачать приложение для Apple">
+                <img class="apple-icon" src="img/logotype/apple-logo.svg" width="47" height="58" alt="скачать приложение для Apple">
               </a>
             </li>
             <li class="intro-box__item">
@@ -206,7 +210,7 @@
               </li>
               <li class="more-advantages__item">
                 <p class="more-advantages-point more-advantages__text">
-                  Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!
+                  Британские ученые провели исследования и доказали,<br class="more-advantages__br-transfer"> что положительный эффект<br class="more-advantages__br-shift"> от использования приложения длится<br class="more-advantages__br-shift"> целые сутки!
                 </p>
               </li>
               <li class="more-advantages__item">
@@ -405,13 +409,13 @@
           </div>
           <ul class="list switch tariff__toggles slider__toggles">
             <li>
-              <div class="switch__bullet switch__bullet--current">
+              <div class="switch__bullet">
                 <button class="button switch__button slider__toggle slider__toggle--current" type="button">
                 </button>
               </div>
             </li>
             <li>
-              <div class="switch__bullet">
+              <div class="switch__bullet switch__bullet--current">
                 <button class="button switch__button slider__toggle" type="button">
                 </button>
               </div>
@@ -445,7 +449,7 @@
                 Звоните:
               </p>
               <a class="contacts-info contacts-center__telephone" href="tel:+78125556666">
-                +7(812)555-66-66
+                +7 (812) 555-66-66
               </a>
             </li>
             <li class="contacts-center__item-mail">

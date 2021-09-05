@@ -1,0 +1,33 @@
+.radio:not(:checked) + label::before {
+  content: "";
+  position: absolute;
+  left: -19px;
+  top: -8px;
+  width: 42px;
+  height: 42px;
+  background-image: url("../img/radio/radio-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    top: -4px;
+  }
+}
+
+.radio:checked + label::after {
+  content: "";
+  position: absolute;
+  left: -19px;
+  top: -8px;
+  width: 42px;
+  height: 42px;
+  background-image: url("../img/radio/radio-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    top: -4px;
+  }
+}

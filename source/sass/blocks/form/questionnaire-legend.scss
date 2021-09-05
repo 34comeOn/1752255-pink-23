@@ -3,6 +3,7 @@
   line-height: 30px;
   font-weight: 400;
   display: block;
+  letter-spacing: 0.2px;
 
   @media (min-width: $tablet-width) {
     font-size: 18px;
@@ -11,5 +12,14 @@
 
   @media (min-width: $desktop-width) {
     width: 756px;
+    letter-spacing: 0.3px;
+  }
+}
+
+.questionnaire-legend span {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: contents;
   }
 }

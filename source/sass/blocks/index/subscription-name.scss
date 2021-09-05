@@ -3,8 +3,10 @@
   font-weight: 700;
   line-height: 22px;
   height: 23px;
+  letter-spacing: 1px;
 
   @media (min-width: $desktop-width) {
     font-size: 18px;
+    margin-bottom: 6px;
   }
 }
