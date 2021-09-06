@@ -1,7 +1,7 @@
 .create {
   background-color: $form-background-dark;
   width: 320px;
-  height: 760px;
+  height: 756px;
   padding: 0;
 
   display: flex;
@@ -34,6 +34,7 @@
 
   @media (min-width: $desktop-width) {
     margin-right: 90px;
+    margin-left: 10px;
   }
 }
 

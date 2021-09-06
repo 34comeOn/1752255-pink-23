@@ -1,8 +1,8 @@
 .user-contacts {
   @media (min-width: $tablet-width) {
     background-color: $white;
-    width: 620px;
-    height: 306px;
+    width: 616px;
+    height: 310px;
   }
 
   @media (min-width: $desktop-width) {
@@ -12,9 +12,19 @@
 }
 
 .user-contacts__title {
-  margin-top: -15px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -15px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -12px;
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -14px;
+    margin-bottom: 37px;
+  }
 }
 
 .user-contacts__list {
@@ -27,11 +37,22 @@
   }
 }
 
+.user-contacts__list li:last-child {
+  margin-top: -7px;
+}
+
 .user-contacts__label {
   text-align: left;
-  padding-left: 20px;
-  margin-top: 20px;
+  padding-left: 25px;
+  margin-top: 22px;
   margin-bottom: 5px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 19px;
+    margin-top: 9px;
+    margin-bottom: 37px;
+    letter-spacing: 0.3px;
+  }
 }
 
 .user-contacts__item {
@@ -42,11 +63,56 @@
   @media (min-width: $tablet-width) {
     flex-direction: column-reverse;
     width: 496px;
-    margin-left: auto;
+    margin-left: 58px;
     margin-right: auto;
+    position: relative;
   }
 
   @media (min-width: $desktop-width) {
     width: 371px;
+    margin-left: 60px;
+    margin-right: 14px;
+  }
+}
+
+.user-contacts__handset {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/handset.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    top: 2.4px;
+    right: -3.8px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 21.4px;
+    right: -5.1px;
+  }
+}
+
+.user-contacts__envelope {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    background-image: url("../img/envelope.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    top: 2.4px;
+    right: -2.8px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 28.4px;
+    right: -4px;
   }
 }

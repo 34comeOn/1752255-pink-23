@@ -1,7 +1,11 @@
 .more-advantages-point {
+  margin-bottom: 8px;
+
   @media (min-width: $desktop-width) {
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-bottom: 31px;
   }
 }

@@ -7,3 +7,10 @@
     height: 400px;
   }
 }
+
+.own__image {
+  @media (min-width: $tablet-width) {
+    width: 300px;
+    height: 400px;
+  }
+}

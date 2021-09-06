@@ -4,16 +4,21 @@
   line-height: 30px;
   font-weight: 400;
   border: 2px solid $form-background-dark;
-  padding: 22px;
+  height: 183px;
+  width: 236px;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
-    width: 440px;
-    height: 169px;
-    margin-top: 10px;
+    width: 457px;
+    height: 174px;
+    margin-top: 15px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 746px;
-    height: 104px;
+    width: 776px;
+    height: 109px;
+    margin-top: 11px;
   }
 }

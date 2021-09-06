@@ -3,4 +3,15 @@
   width: 240px;
   height: 2px;
   background-color: $nav-active;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 19px;
+    margin-left: 37px;
+    width: 202px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 12px;
+    width: 288px;
+  }
 }

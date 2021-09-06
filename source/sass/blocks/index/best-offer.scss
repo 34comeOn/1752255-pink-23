@@ -1,3 +1,11 @@
 .best-offer {
   position: absolute;
+
+  @media (min-width: $tablet-width) {
+    width: 57px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+  }
 }

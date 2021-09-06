@@ -1,0 +1,47 @@
+.failure {
+  display: none;
+  width: 320px;
+  height: 289px;
+  background-color: $white;
+  border-radius: 1px;
+  box-shadow: 0 7px 15px $shadow;
+
+  @media (min-width: $tablet-width) {
+    width: 460px;
+    height: 363px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 780px;
+    height: 377px;
+  }
+}
+
+.fieldset--falure .failure {
+  display: block;
+}
+
+.failure__ok {
+  width: 320px;
+  height: 163px;
+
+  @media (min-width: $tablet-width) {
+    width: 460px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 780px;
+  }
+}
+
+.failure__button {
+  margin-top: 40px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 34px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 112px;
+  }
+}

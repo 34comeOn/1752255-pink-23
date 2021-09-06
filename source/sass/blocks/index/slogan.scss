@@ -8,4 +8,10 @@
     font-size: 40px;
     line-height: 48px;
   }
+
+  @media (min-width: $desktop-width) {
+    font-size: 49px;
+    line-height: 69px;
+    width: 300px;
+  }
 }

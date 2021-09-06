@@ -1,9 +1,8 @@
 .contacts-title {
-  @media (max-width: $mobile-width-only) {
-    display: none;
-  }
+  display: none;
 
   @media (min-width: $tablet-width) {
+    display: block;
     text-transform: uppercase;
     color: $contrast-heading;
     line-height: 30px;
@@ -12,5 +11,11 @@
     padding-right: 20px;
     background-color: $white;
     z-index: 2;
+    letter-spacing: 0.3px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 29px;
+    padding-right: 29px;
   }
 }

@@ -89,6 +89,8 @@
 @import "blocks/form/contacts-block.scss";
 @import "blocks/form/form-label-contacts.scss";
 @import "blocks/form/form-input-contacts.scss";
+@import "blocks/form/checkbox.scss";
+@import "blocks/form/radio.scss";
 @import "blocks/form/app.scss";
 @import "blocks/form/app-caption.scss";
 @import "blocks/form/app-main.scss";
@@ -97,6 +99,9 @@
 @import "blocks/form/comment.scss";
 @import "blocks/form/comment-caption.scss";
 @import "blocks/form/textarea.scss";
+@import "blocks/form/failure.scss";
+@import "blocks/form/success.scss";
+@import "blocks/form/popup.scss";
 @import "blocks/catalog/catalog.scss";
 @import "blocks/catalog/primary.scss";
 @import "blocks/catalog/sample.scss";
