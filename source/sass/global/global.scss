@@ -70,16 +70,28 @@ a {
   background-position: top center;
   background-repeat: no-repeat;
 
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background/back-mobile@2x.jpg");
+  }
+
 
   @media (min-width: $tablet-width) {
     width: 660px;
     height: 729px;
     background-image: url("../img/background/back-tablet.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/background/back-tablet@2x.jpg");
+    }
   }
 
   @media (min-width: $desktop-width) {
     width: 1200px;
     height: 853px;
     background-image: url("../img/background/back-desktop.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/background/back-desktop@2x.jpg");
+    }
   }
 }

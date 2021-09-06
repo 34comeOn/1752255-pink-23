@@ -4,27 +4,30 @@
   background-image: url("../img/hand-phone/hand-mobile.png");
   background-position: top center;
   background-repeat: no-repeat;
-}
 
-@media (min-width: $tablet-width) {
-  .phone-palm {
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/hand-phone/hand-mobile@2x.png");
+  }
+
+  @media (min-width: $tablet-width) {
     width: 660px;
     height: 545px;
     background-image: url("../img/hand-phone/hand-tablet.png");
-    background-position: top center;
-    background-repeat: no-repeat;
     position: absolute;
     z-index: 0;
-  }
-}
 
-@media (min-width: $desktop-width) {
-  .phone-palm {
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/hand-phone/hand-tablet@2x.png");
+    }
+  }
+
+  @media (min-width: $desktop-width) {
     width: 1050px;
     height: 645px;
     background-image: url("../img/hand-phone/hand-desktop.png");
-    background-position: top center;
-    background-repeat: no-repeat;
-    position: absolute;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/hand-phone/hand-desktop@2x.png");
+    }
   }
 }

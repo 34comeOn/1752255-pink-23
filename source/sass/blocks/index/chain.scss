@@ -29,37 +29,47 @@
   z-index: 1;
 
   @media (min-width: $tablet-width) {
+    width: 268px;
+    height: 547px;
     top: 28px;
     left: 20px;
   }
 
   @media (min-width: $desktop-width) {
+    width: 186px;
+    height: 382px;
     position: static;
   }
 }
 
 .chain__image-emoji {
   @media (min-width: $desktop-width) {
+    width: 165px;
+    height: 294px;
     position: absolute;
-    top: 40px;
+    top: 44px;
     left: 11px;
   }
 }
 
 .chain__image-smile {
   position: absolute;
-  top: 35px;
-  left: 90px;
+  top: 37px;
+  left: 91px;
   z-index: 2;
 
   @media (min-width: $tablet-width) {
-    top: 87px;
-    left: 33px;
+    width: 237px;
+    height: 421px;
+    top: 91px;
+    left: 36px;
   }
 
   @media (min-width: $desktop-width) {
-    top: 40px;
-    left: 8px;
+    width: 165px;
+    height: 294px;
+    top: 44px;
+    left: 10px;
   }
 }
 
@@ -77,5 +87,9 @@
     top: 287px;
     left: -51px;
     z-index: 4;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/example/example-desktop/shadow@2x.png");
+    }
   }
 }
