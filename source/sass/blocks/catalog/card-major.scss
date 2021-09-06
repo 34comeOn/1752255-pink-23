@@ -25,3 +25,15 @@
     top: 53px;
   }
 }
+
+.card-major__image {
+  @media (min-width: $tablet-width) {
+    width: 660px;
+    height: 509px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    height: 506px;
+  }
+}
