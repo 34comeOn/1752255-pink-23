@@ -53,13 +53,10 @@
 }
 
 .intro-box__image-hand {
-  margin-top: auto;
-
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
+  top: 176px;
+  left: 0px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
     top: -159px;
     left: 0;
   }

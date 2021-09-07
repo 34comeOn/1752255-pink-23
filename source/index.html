@@ -97,11 +97,11 @@
           <p class="slogan intro-box__slogan">
             Взгляните на жизнь иначе!
           </p>
-          <div class="phone-palm intro-box__image-hand">
-            <span class="visually-hidden">
-              В руке мобильный телефон, на котором изображена фоторгафия двухэтажного здания прошлой эпохи в ярком розовом цвете
-            </span>
-          </div>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/hand-phone/hand-desktop.png 1x, img/hand-phone/hand-desktop@2x.png 2x">
+            <source media="(min-width: 660px)" srcset="img/hand-phone/hand-tablet.png 1x, img/hand-phone/hand-tablet@2x.png 2x">
+            <img class="phone-palm intro-box__image-hand" src="img/hand-phone/hand-mobile.png" srcset="img/hand-phone/hand-mobile@2x.png 2x" width="320" height="286" alt="В руке мобильный телефон, на котором изображена фоторгафия двухэтажного здания прошлой эпохи в ярком розовом цвете">
+          </picture>
           <a class="button download-button intro-box__button" href="https://www.apple.com/ru/app-store/">
             Скачать приложение
           </a>

@@ -1,36 +1,16 @@
 .phone-palm {
   width: 320px;
   height: 286px;
-  background-image: url("../img/hand-phone/hand-mobile.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-
-  @media (min-resolution: 2dppx) {
-    background-image: url("../img/hand-phone/hand-mobile@2x.png");
-    background-size: 640px 572px;
-  }
+  position: absolute;
 
   @media (min-width: $tablet-width) {
     width: 660px;
     height: 545px;
-    background-image: url("../img/hand-phone/hand-tablet.png");
-    position: absolute;
     z-index: 0;
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../img/hand-phone/hand-tablet@2x.png");
-      background-size: 1320px 1090px;
-    }
   }
 
   @media (min-width: $desktop-width) {
     width: 1050px;
     height: 645px;
-    background-image: url("../img/hand-phone/hand-desktop.png");
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../img/hand-phone/hand-desktop@2x.png");
-      background-size: 2010px 1290px;
-    }
   }
 }
