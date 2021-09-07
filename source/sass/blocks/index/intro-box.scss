@@ -53,19 +53,16 @@
 }
 
 .intro-box__image-hand {
-  margin-top: auto;
-
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
+  top: 176px;
+  left: 0;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
-    top: -159px;
+    top: 184px;
     left: 0;
   }
 
   @media (min-width: $desktop-width) {
-    top: -206px;
+    top: 208px;
     left: 146px;
   }
 }

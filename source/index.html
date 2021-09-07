@@ -7,6 +7,10 @@
     <title>
       HTML Academy: Пинк
     </title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon/180.svg">
+    <link rel="manifest" href="manifest.webmanifest">
   </head>
 
 
@@ -93,11 +97,11 @@
           <p class="slogan intro-box__slogan">
             Взгляните на жизнь иначе!
           </p>
-          <div class="phone-palm intro-box__image-hand">
-            <span class="visually-hidden">
-              В руке мобильный телефон, на котором изображена фоторгафия двухэтажного здания прошлой эпохи в ярком розовом цвете
-            </span>
-          </div>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/hand-phone/hand-desktop.png 1x, img/hand-phone/hand-desktop@2x.png 2x">
+            <source media="(min-width: 660px)" srcset="img/hand-phone/hand-tablet.png 1x, img/hand-phone/hand-tablet@2x.png 2x">
+            <img class="phone-palm intro-box__image-hand" src="img/hand-phone/hand-mobile.png" srcset="img/hand-phone/hand-mobile@2x.png 2x" width="320" height="286" alt="В руке мобильный телефон, на котором изображена фоторгафия двухэтажного здания прошлой эпохи в ярком розовом цвете">
+          </picture>
           <a class="button download-button intro-box__button" href="https://www.apple.com/ru/app-store/">
             Скачать приложение
           </a>
@@ -181,14 +185,14 @@
             </li>
             <li class="chain__item">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/example/example-desktop/iphone-screen-3.jpg">
-                <source media="(min-width: 660px)" srcset="img/example/example-tablet/screen-tablet.jpg">
-                <img class="chain__image-smile" src="img/example/example-mobile/iphone-screen-3.jpg" alt="В мобильном телефоне фотография двух мусорных баков в розовых цветах, на переднем плане смайлик и текст приветствия">
+                <source media="(min-width: 1200px)" srcset="img/example/example-desktop/iphone-screen-3.jpg 1x, img/example/example-desktop/iphone-screen-3@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/example/example-tablet/screen-tablet.jpg 1x, img/example/example-tablet/screen-tablet@2x.jpg 2x">
+                <img class="chain__image-smile" src="img/example/example-mobile/iphone-screen-3.jpg" srcset="img/example/example-mobile/iphone-screen-3@2x.jpg 2x" width="136" height="245" alt="В мобильном телефоне фотография двух мусорных баков в розовых цветах, на переднем плане смайлик и текст приветствия">
               </picture>
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/example/example-desktop/iphone.png">
-                <source media="(min-width: 660px)" srcset="img/example/example-tablet/iphone-tablet.png">
-                <img class="chain__image-phone" src="img/example/example-mobile/iphone-3.png" alt="Телефон">
+                <source media="(min-width: 1200px)" srcset="img/example/example-desktop/iphone.png 1x, img/example/example-desktop/iphone@2x.png 2x">
+                <source media="(min-width: 660px)" srcset="img/example/example-tablet/iphone-tablet.png 1x, img/example/example-tablet/iphone-tablet@2x.png 2x">
+                <img class="chain__image-phone" src="img/example/example-mobile/iphone-3.png" srcset="img/example/example-mobile/iphone-3@2x.png 2x" width="157" height="320" alt="Телефон">
               </picture>
               <div class="chain__image-shadow">
               </div>
