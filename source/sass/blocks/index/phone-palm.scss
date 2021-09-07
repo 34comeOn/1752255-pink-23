@@ -7,7 +7,7 @@
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/hand-phone/hand-mobile@2x.png");
-    background-size: 640px auto;
+    background-size: 640px 572px;
   }
 
   @media (min-width: $tablet-width) {
@@ -19,7 +19,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/hand-phone/hand-tablet@2x.png");
-      background-size: 1320px auto;
+      background-size: 1320px 1090px;
     }
   }
 
@@ -30,7 +30,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/hand-phone/hand-desktop@2x.png");
-      background-size: 2010px auto;
+      background-size: 2010px 1290px;
     }
   }
 }
