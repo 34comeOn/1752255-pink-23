@@ -1,23 +1,24 @@
 .triangle {
   width: 1200px;
   height: 123px;
-  background-image: url("../img/triangle.png");
+  background-image: url("../img/triangle.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   position: absolute;
   top: 280px;
-  left: -433px;
+  left: -439px;
   z-index: 1;
 
   @media (min-width: $tablet-width) {
+    background-image: url("../img/triangle-tablet.svg");
     top: 351px;
-    left: -264px;
+    left: -273px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1439px;
     height: 123px;
-    background-image: url("../img/triangle-desktop.png");
+    background-image: url("../img/triangle-desktop.svg");
     top: 329px;
     left: -119px;
   }
