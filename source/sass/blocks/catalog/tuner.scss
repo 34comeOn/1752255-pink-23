@@ -113,7 +113,7 @@
     position: absolute;
     width: 26px;
     height: 24px;
-    background-image: url("../img/crop.svg");
+    background-image: url("../img/icons/crop-icon.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
     top: 9px;
@@ -123,7 +123,7 @@
   @media (min-width: $desktop-width) {
     width: 50px;
     height: 50px;
-    background-image: url("../img/crop-large.svg");
+    background-image: url("../img/icons/crop-icon-large.svg");
     top: -2px;
     left: -80px;
   }
@@ -134,7 +134,7 @@
     position: absolute;
     width: 26px;
     height: 24px;
-    background-image: url("../img/fill.svg");
+    background-image: url("../img/icons/fill-icon.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
     top: 11px;
@@ -144,7 +144,7 @@
   @media (min-width: $desktop-width) {
     width: 50px;
     height: 50px;
-    background-image: url("../img/fill-large.svg");
+    background-image: url("../img/icons/fill-icon-large.svg");
     top: -1px;
     left: -80px;
   }
@@ -155,7 +155,7 @@
     position: absolute;
     width: 26px;
     height: 24px;
-    background-image: url("../img/contrast.svg");
+    background-image: url("../img/icons/contrast-icon.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
     top: 11px;
@@ -165,7 +165,7 @@
   @media (min-width: $desktop-width) {
     width: 50px;
     height: 50px;
-    background-image: url("../img/contrast-large.svg");
+    background-image: url("../img/icons/contrast-icon-large.svg");
     top: 3px;
     left: -74px;
   }
