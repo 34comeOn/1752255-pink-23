@@ -11,3 +11,9 @@
     height: 11px;
   }
 }
+
+.more-advantages-heading br {
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
