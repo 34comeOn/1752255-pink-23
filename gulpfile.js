@@ -5,6 +5,7 @@ const sass = require("gulp-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const csso = require("postcss-csso");
+const htmlmin = require("gulp-htmlmin");
 const rename = require("gulp-rename");
 const webp = require("gulp-webp");
 const svgstore = require("gulp-svgstore");
@@ -12,6 +13,7 @@ const terser = require("gulp-terser");
 const squoosh = require("gulp-libsquoosh");
 const del = require("del");
 const sync = require("browser-sync").create();
+
 
 // Styles
 
@@ -31,10 +33,12 @@ const styles = () => {
 
 exports.styles = styles;
 
+
 // HTML
 
 const html = () => {
   return gulp.src("source/*.html")
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest("build"));
 }
 
@@ -50,6 +54,7 @@ const scripts = () => {
 }
 
 exports.scripts = scripts;
+
 
 // Images
 
@@ -79,6 +84,7 @@ const createWebp = () => {
 
 exports.createWebp = createWebp;
 
+
 // Sprite
 
 const sprite = () => {
@@ -91,6 +97,7 @@ const sprite = () => {
 }
 
 exports.sprite = sprite;
+
 
 // Copy
 
@@ -109,11 +116,13 @@ const copy = (done) => {
 
 exports.copy = copy;
 
+
 // Clean
 
 const clean = () => {
   return del("build");
 };
+
 
 // Server
 
@@ -131,6 +140,7 @@ const server = (done) => {
 
 exports.server = server;
 
+
 // Reload
 
 const reload = (done) => {
@@ -138,18 +148,18 @@ const reload = (done) => {
   done();
 }
 
+
 // Watcher
 
 const watcher = () => {
   gulp.watch("source/sass/**/*.scss", gulp.series("styles"));
   gulp.watch("source/js/script.js", gulp.series(scripts));
-  gulp.watch("source/*.html").on("change", sync.reload);
+  gulp.watch("source/*.html", gulp.series(html, reload));
 }
 
 exports.default = gulp.series(
   styles, server, watcher
 );
-
 
 
 // Build
@@ -164,14 +174,13 @@ const build = gulp.series(
     scripts,
     sprite,
     createWebp
-
   ),
 );
 
 exports.build = build;
 
-// Default
 
+// Default
 
 exports.default = gulp.series(
   clean,
@@ -183,8 +192,6 @@ exports.default = gulp.series(
     scripts,
     sprite,
     createWebp
-
-
   ),
   gulp.series(
     server,

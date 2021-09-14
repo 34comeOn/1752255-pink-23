@@ -5,16 +5,17 @@
   background-color: $contrast-heading;
   border: 10px solid $white;
   position: absolute;
-  top: 465px;
+  top: 91px;
   left: 142px;
+  z-index: -1;
 
   @media (min-width: $tablet-width) {
-    top: 600px;
+    top: 233px;
     left: 311px;
   }
 
   @media (min-width: $desktop-width) {
-    top: 613px;
+    top: 264px;
     left: 582px;
   }
 }
