@@ -26,8 +26,49 @@
   }
 }
 
-.page-header__image {
+.page-header__link {
+  color: $white;
+
+  &:hover {
+    color: $contrast-heading;
+  }
+
+  &:active {
+    color: $white;
+  }
+}
+
+.page-header__svg-text {
+  &:active {
+    opacity: 0.3;
+  }
+
   @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.page-header__svg-glasses {
+  display: none;
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.page-header__image {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
     width: 145px;
     height: 40px;
   }
