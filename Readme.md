@@ -1,3 +1,16 @@
+Second personal project "Pink".
+ 
+Tools & technologies:
+- Figma
+- HTML
+- CSS
+- Git
+- Gulp
+- BEM
+- Sass
+
+
+
 # Личный проект «Пинк» 
 
 * Студент: [Михаил Барабанов](https://up.htmlacademy.ru/adaptive/23/user/1752255).
